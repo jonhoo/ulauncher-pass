@@ -1,0 +1,16 @@
+{
+  "required_api_version": "^2.0.0",
+  "name": "pass integration for ulauncher",
+  "description": "Expose passwords from pass: the standard unix password manager",
+  "developer_name": "Jon Gjengset",
+  "icon": "images/icon.svg",
+  "preferences": [
+    {
+      "id": "pass_kw",
+      "type": "keyword",
+      "name": "Pass",
+      "description": "Pass extension",
+      "default_value": "pass"
+    }
+  ]
+}
